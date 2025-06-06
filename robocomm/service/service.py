@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Callable
 import time
-from logger import set_logger
+from .logger import set_logger
 from ..serialization.serialization import serialize, deserialize
 
 import zmq
